@@ -8,7 +8,7 @@ All enhancements were done to the same artifact, from the course CS-340 Client/S
 Lastly, the database and security enhancement included implementing a Full Stack Node.js/Mongoose architecture to create a professional database interface. The system ensures data integrity through Mongoose schema validation and utilizes a RESTful JavaScript interface for standardized HTTP access. By implementing sanitized queries to prevent NoSQL injection and establishing role-based access control, the architecture maintains a secure and highly structured database environment.
 
 ## Code Review
-Code review can be watched [here](https://youtu.be/eT7jEd3oMa8)
+Code review can be viewed [here](https://youtu.be/eT7jEd3oMa8)
 
 ## Enhancements
 
