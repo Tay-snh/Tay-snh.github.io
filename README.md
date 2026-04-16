@@ -16,9 +16,10 @@ Code review can be watched [here](https://youtu.be/eT7jEd3oMa8)
 
 The improved version of the project demonstrates skills as a full stack developer, to make enhancements in algorithms and data structure. It shows optimizing search efficiency by implementing a parameterized search algorithm. This was done by moving the filter logic from client-side find() queries in Python to MongoDB Aggregation Pipeline (server side) within the Node.js environment. By implementing this, all the records are not pulled and filtered in memory, but instead in the database. That handles algorithmic processing before coming to the middleware, improving time complexity and computational load for large datasets. This showcases an effective evaluation of trade-offs between client-side processing and server-side aggregation to achieve superior performance and scalability. 
 
-**Here is a short snippet of the index.js file:**
+**Here is a snippet of the index.js file:**
 
 ```
+HTML5
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,9 +83,10 @@ The improved version of the project demonstrates skills as a full stack develope
 
 The improved version demonstrates skills as a full stack developer, to make enhancements in algorithms and data structure. It shows optimizing search efficiency by implementing a parameterized search algorithm. This was done by moving the filter logic from client-side find() queries in Python to MongoDB Aggregation Pipeline (server side) within the Node.js environment. By implementing this, all the records are not pulled and filtered in memory, but instead in the database. That handles algorithmic processing before coming to the middleware, improving time complexity and computational load for large datasets. This showcases an effective evaluation of trade-offs between client-side processing and server-side aggregation to achieve superior performance and scalability. 
 
-**Here is a snippet of the enhanced filtering logic:**
+**Here is a snippet of the enhanced filtering logic in server.js:**
 
 ```
+JavaScript
 app.get('/api/animals/filter', async (req, res) => {
     const { type } = req.query;
     let pipeline = []; // This replaces the empty query object
@@ -135,6 +137,7 @@ The improved version demonstrates skills as a full stack developer, to make enha
 **Here is a snippet of the enhanced Animal.js file:**
 
 ```
+JavaScript
 const animalSchema = new mongoose.Schema({
     // animal_id is the unique primary key; required and trimmed of whitespace
     animal_id: { 
