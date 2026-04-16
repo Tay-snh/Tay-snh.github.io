@@ -18,8 +18,7 @@ The improved version of the project demonstrates skills as a full stack develope
 
 **Here is a snippet of the index.js file:**
 
-```
-HTML5
+```HTML5
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,8 +84,7 @@ The improved version demonstrates skills as a full stack developer, to make enha
 
 **Here is a snippet of the enhanced filtering logic in server.js:**
 
-```
-JavaScript
+```JavaScript
 app.get('/api/animals/filter', async (req, res) => {
     const { type } = req.query;
     let pipeline = []; // This replaces the empty query object
@@ -136,8 +134,7 @@ The improved version demonstrates skills as a full stack developer, to make enha
 
 **Here is a snippet of the enhanced Animal.js file:**
 
-```
-JavaScript
+```JavaScript
 const animalSchema = new mongoose.Schema({
     // animal_id is the unique primary key; required and trimmed of whitespace
     animal_id: { 
